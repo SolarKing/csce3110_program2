@@ -10,9 +10,9 @@ Each record of the input file is on a separate line. Each line contains (in this
 Census Tract 201, Autauga County, Alabama|9.84473419420788|1808|183.651479494869 Census Tract 202, Autauga County, Alabama|3.34583234555866|2355|703.860730836106 Census Tract 203, Autauga County, Alabama|5.35750339330735|3057|570.60159846447
 You can download the input file from http://students.cse.unt.edu/~martyo/3110sum2015/pop_density.txt To download this file onto the CSE machines, enter the following command and the prompt:
 
-***
+``` bash
 wget http://students.cse.unt.edu/~martyo/3110sum2015/pop_density.txt
-***
+```
 ###Sorting Algorithm Requirements
 
 For this assignment, you will implement two different sorting techniques and examine their performances: MergeSort and QuickSort. Do not use a C/C++ library for the sorting. You must write your own code to perform the sorting operations. For QuickSort, choose the pivot using the median-of-three approach. You must write a separate program for each of these two sorting techniques. Your programs should track and output the execution time for each sorting method. http://www.cplusplus.com/reference/ctime/clock/ provides a simple mechanism for timing code using clicks. Only time the sort routines, not the entire program.
