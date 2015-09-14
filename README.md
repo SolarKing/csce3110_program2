@@ -10,7 +10,7 @@ Each record of the input file is on a separate line. Each line contains (in this
 Census Tract 201, Autauga County, Alabama|9.84473419420788|1808|183.651479494869 Census Tract 202, Autauga County, Alabama|3.34583234555866|2355|703.860730836106 Census Tract 203, Autauga County, Alabama|5.35750339330735|3057|570.60159846447
 You can download the input file from http://students.cse.unt.edu/~martyo/3110sum2015/pop_density.txt To download this file onto the CSE machines, enter the following command and the prompt:
 
-*** bash
+***
 wget http://students.cse.unt.edu/~martyo/3110sum2015/pop_density.txt
 ***
 ###Sorting Algorithm Requirements
